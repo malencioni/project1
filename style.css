@@ -9,6 +9,18 @@
     
   }
 
+
+.nav-item {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.bg-light {
+    background-color: yellow
+}
+
   .caption  {
     left: 0;
     position: absolute;
@@ -78,10 +90,40 @@
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
-    color: purple;
+    color: #6b016b;
 }
+
+.icon-text {
+    text-align:center;
+    color: black;
+}
+
 
 .section {
     text-align: center;
     padding-bottom: 30px;
+}
+
+.btn-block {
+    width: 150px;
+    
+}
+
+.btn {
+    background-color: #6b016b;
+    border-color: #6b016b;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #480148;
+    border-color: #480148;
+    color: white;
+}
+
+.btn-primary:focus {
+    background-color: #480148 !important;
+    border-color: #480148 !important;
+    color: white !important;
+    box-shadow: none !important;
 }
