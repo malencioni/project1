@@ -6,9 +6,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    
-  }
-
+}
 
 .nav-item {
     padding-left: 30px;
@@ -126,4 +124,34 @@
     border-color: #480148 !important;
     color: white !important;
     box-shadow: none !important;
+}
+
+/* Napa Page*/
+.napa_background {
+    background-image: url("images/napa_background.jpg"); /* The image used */
+    background-color: black; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.jumbotron {
+    height: 50%;
+}
+
+.napa_jumbo {
+    background-color: #f5ebd8;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.cards {
+    padding-bottom: 50px;
+}
+
+.card-grey {
+    background-color: grey;
 }
