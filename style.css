@@ -130,7 +130,7 @@
 .napa_background {
     background-image: url("images/napa_background.jpg"); /* The image used */
     background-color: black; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
+    height: 300px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -138,7 +138,8 @@
 }
 
 .jumbotron {
-    height: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .napa_jumbo {
@@ -153,5 +154,46 @@
 }
 
 .card-grey {
-    background-color: grey;
+    background-color: rgb(216, 216, 216);
+}
+
+.cursive {
+  font-family: 'Dancing Script', 'cursive';
+}
+
+.font_thin {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.btn-bottom {
+  vertical-align: bottom;
+}
+
+
+/* Napa Page*/
+.sonoma_background {
+  background-image: url("images/sonoma_background.jpg"); /* The image used */
+  background-color: black; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.sonoma_jumbo {
+  background-color: #f5ebd8;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
 }
