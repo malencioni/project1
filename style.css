@@ -94,6 +94,9 @@
 .icon-text {
     text-align:center;
     color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
 }
 
 
@@ -163,6 +166,12 @@
 
 .font_thin {
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.font_less_thin {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .card-text {
