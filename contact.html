@@ -58,35 +58,38 @@
 
 <!--Form-->
 <div class="container">
-  <div class="row" style="padding-bottom: 10px;">
-    <h2>Suggestion Form</h2>
+  <div class="row" style="padding-bottom: 0px;">
+    <h2 class="font_thin">Suggestion Form</h2>
+  </div>
+  <div class="row">
+    <p style="padding-bottom: 10px;" class="font_thin">*All fields are required</p>
   </div>
   <div class="row">
     <div class="col-lg-6">
-      <form>
-        <label for="SuggestionType">Suggestion Type</label>
-        <select class="form-control" id="SuggestionType">
-          <option></option>
-          <option>Winery</option>
-          <option>Resturant</option>
-          <option>Lodging</option>
-          <option>Other</option>
-        </select>
-        <label for="Location" style="padding-top: 10px;">Location</label>
-        <select class="form-control" id="Location">
-          <option></option>
-          <option>Napa</option>
-          <option>Sonoma</option>
-          <option>Other</option>
-        </select>
+      <form name="Project1Suggest" data-netlify="true">
         <div class="form-group">
-        </br>
-          <input type="Name" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
+          <select class="form-control" id="SuggestionType" required="required">
+            <option class="placeholder" disabled="" value="" selected="">Suggestion Type</option>
+            <option>Winery</option>
+            <option>Resturant</option>
+            <option>Lodging</option>
+            <option>Other</option>
+          </select>
         </div>
         <div class="form-group">
-          <input type="web" class="form-control" id="web" placeholder="Website">
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required="required">
+            <option class=" placeholder" disabled="" value="" selected="">Location</option>
+            <option value="Napa">Napa</option>
+            <option value="Sonoma">Sonoma</option>
+            <option value="Other">Other</option>
+          </select>
         </div>
-      </br>
+        <div class="form-group">
+          <input type="Name" class="form-control" id="Name" required="required" aria-describedby="emailHelp" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="web" class="form-control" id="web" required="required" placeholder="Website">
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
