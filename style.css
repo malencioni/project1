@@ -152,26 +152,13 @@
 
 }
 
+/* Cards */
 .cards {
     padding-bottom: 50px;
 }
 
 .card-grey {
     background-color: rgb(216, 216, 216);
-}
-
-.cursive {
-  font-family: 'Dancing Script', 'cursive';
-}
-
-.font_thin {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-}
-
-.font_less_thin {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
 }
 
 .card-text {
@@ -189,7 +176,7 @@
 }
 
 
-/* Napa Page*/
+/* Sonoma Page*/
 .sonoma_background {
   background-image: url("images/sonoma_background.jpg"); /* The image used */
   background-color: black; /* Used if the image is unavailable */
@@ -205,4 +192,20 @@
   padding-top: 0px;
   padding-bottom: 0px;
 
+}
+
+/* Fonts */
+
+.cursive {
+  font-family: 'Dancing Script', 'cursive';
+}
+
+.font_thin {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.font_less_thin {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
