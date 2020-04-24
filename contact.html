@@ -8,7 +8,8 @@
     <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4969752669.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -40,15 +41,57 @@
   </nav>
 <!--End Nav Bar-->
 
+<!--header-->
+<div class="jumbotron itinerary_jumbo">
+  <div class="row">
+      <div class="col-md-6" style="padding-left: 0px;">
+          <h1 class="cursive" style="text-align:center; padding-top: 100px;">Make a Suggestion</h1>
+          <p class="font_thin" style="text-align: center;">We're always looking for new places in Napa/Sonoma</p> 
+      </div>
+      <div class="col-md-6">
+          <div class="contact_background">
+          </div>
+      </div>
+  </div>
+</div>
+<!--end header-->
+
 <!--Form-->
-
-<form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
-</form>
-
+<div class="container">
+  <div class="row" style="padding-bottom: 10px;">
+    <h2>Suggestion Form</h2>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <form>
+        <label for="SuggestionType">Suggestion Type</label>
+        <select class="form-control" id="SuggestionType">
+          <option></option>
+          <option>Winery</option>
+          <option>Resturant</option>
+          <option>Lodging</option>
+          <option>Other</option>
+        </select>
+        <label for="Location" style="padding-top: 10px;">Location</label>
+        <select class="form-control" id="Location">
+          <option></option>
+          <option>Napa</option>
+          <option>Sonoma</option>
+          <option>Other</option>
+        </select>
+        <div class="form-group">
+        </br>
+          <input type="Name" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="web" class="form-control" id="web" placeholder="Website">
+        </div>
+      </br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
 </body>
 
 
